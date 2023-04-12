@@ -14,4 +14,4 @@ class HelloApiView(APIView):
             'Mapped manually to URLs',
         ]
 
-        return Response({'message': 'Hello!', 'an_apiview': an_apiview})
+        return Response({'message': 'Hello!', 'an_apiview': an_apiview})        
